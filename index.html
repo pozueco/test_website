@@ -1,1 +1,23 @@
-<h1>Hello!!!!!</h1>
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: red;
+      }
+      h1 {
+        color: blue;
+        font-size: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="hello">Hello, world!</h1>
+    <script>
+      const hello = document.getElementById("hello");
+      hello.addEventListener("click", () => {
+        alert("Hello, world!");
+      });
+    </script>
+  </body>
+</html>
